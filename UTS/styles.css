@@ -1,0 +1,59 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Viga;
+}
+
+body {
+	height: 637px;/*tinggi dari halamannya*/
+	background-image:url(registerpic.jpg);/*gambarnya*/
+	background-size:cover; /*biar dipaskan ke layar backgroundnya*/
+	background-attachment:fixed;
+}
+
+.main {
+	position: absolute;
+	top: 50%; /*bagian atas halamannya*/
+	left: 50%;/*bagian kiri halaman*/
+	transform: translateX(-50%) translateY(-50%); /*ini supaya kalkulatornya tepat ditangah*/
+	width: fixed;/*ngatur lebarnya*/
+	background-color:-;/*biar transparan*/
+	padding: 60px;/*tempat kalkulatornya ditaruh*/
+	border-radius: 30px;/*mengatur seberapa bulat pinggiran*/
+	box-shadow: 0 0 35px;/*ini ngatur bayangan dari kotak kalkulatornya*/
+}
+
+.main h2 {/*ini untuk ngatur tulisan kalkulator diatas*/
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button {/*ini untuk ngatur tombolnya*/
+	width: 80px;/*lebar nya*/
+	height: 80px;/*tinggi tombolnya*/
+	font-size: 30px;/*ukuran tulisannya*/
+	margin: 2px;/*ini mengatur jarak antar tombolnya*/
+	cursor: pointer;/*ini supaya cursor beruubah jadi kayak tangan saat diatas tombol*/
+	border: none;/*supaya batasnya biasa aja*/
+	background: #191970;/*ini warna tombol angkanya*/
+	color: white;/*ini warna textnya*/
+	border-radius: 35px;/*ngatur seberapa lingkar bordernya*/
+}
+
+.btn-black {/*ini untuk ngatur tombol operasinya*/
+	background:black;/*background tombol*/
+	color:white;/*warna fontnya*/
+}
+
+.textarea {
+	width:318px;/*ini untuk lebar display angkanya*/
+	margin: 4px;/*ini ngatur selisihnya sm yang lain*/
+	font-size: 30px;/*ini ngatur font*/
+	padding: 20px;/*ini ngatur tempat dia ditaruh*/
+	border: none;/*ini supaya bordernya biasa aja*/
+	color: red;/*ini supaya warna textnya hitam*/
+	border-radius: 40px;/*betapa bulatnyz pinggirnya*/
+	text-align: right;/*ini supaya textnya pada kekanan*/
+}
+
